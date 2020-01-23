@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+	background-color: LightGrey;
+}
+ul{
+	margin-right: 488px;
+	margin-top: 25px;
+	float: right;
+	list-style-type: none;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: .3s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+li a.active{
+	background-color: white;
+	color: black;
+}
+h2{
+	color: black;
+	font-size: 55px;
+	position: absolute;
+	top: 75px;
+	left: 650px;
+}
+h3{
+	color: black;
+	font-size: 55px;
+	position: absolute;
+	top: 75px;
+	left: 680px;
+}
+h4{
+	color: black;
+	font-size: 55px;
+	position: absolute;
+	top: 75px;
+	left: 540px;
+}
+h5{
+	color: black;
+	font-size: 55px;
+	position: absolute;
+	top: 75px;
+	left: 660px;
+}
+p{
+	color: black;
+	line-height: 1.5;
+	font-size: 18px;
+	text-indent: 35px;
+	position: absolute;
+	top: 160px;
+	left: 150px;
+	right: 150px;
+}
+.image1{
+	position: absolute;
+	top: 310px;
+	left: 600px;
+	right: 400px;
+	width: 20%;
+	height: 55%;
+}
+.image2{
+	position: absolute;
+	top: 295px;
+	left: 400px;
+	right: 400px;
+	width: 50%;
+	height: 55%;
+}
+.pro{
+	color: black;
+	font-size: 18px;
+	position: absolute;
+	top: 145px;
+	left: 520px;
+	right: 520px;
+}
+.resume{
+	position: absolute;
+	top: 185px;
+	left: 350px;
+}
